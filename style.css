@@ -1,0 +1,131 @@
+body {
+  background-image: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #f7f7f7;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  /*   position: absolute; */
+  /*   max-width: 158px; */
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.titulo a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #3468a7;
+  transition: color 0.2s;
+  letter-spacing: 3px;
+}
+
+.link-icon:hover {
+  color: var(--orange);
+}
+
+.tema {
+  margin-left: auto; 
+  margin-right: -30px;
+  margin-top: -250px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400
+  font-family: 'Roboto';
+  font-style: normal;
+  font-color: #0E1D2F;
+  background: #ECF4FF;
+  border-radius: 100px;
+}
+
+.projetos {
+  background-image: linear-gradient(236.85deg, #499cfe 27.26%, #9cc8fc 96.03%);
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding-bottom: 45px;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos ul {
+  width: 371px;
+  height: 35px;
+  left: 534px;
+  top: 388px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 5px;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.projetos li {
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 42px;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.projetos a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  corlor: #1C1C1C;
+}
+
+.dark .tema button {
+  color: #F7F7F7;
+  background: #1C1C1C;
+  border: 2px solid #F7F7F7;
+}
